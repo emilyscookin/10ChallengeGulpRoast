@@ -1,0 +1,198 @@
+body {
+    background-color: #082B59;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-bkgd {
+    background: #ffffff url(/Users/emilyhartman/Downloads/gulp-bottom-beans.jpg) repeat-x bottom;
+    padding-bottom: 300px;
+    text-align: center;
+}
+
+/* make images flexible */
+img {
+    max-width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    background-color: #082B59;
+    border-bottom: 10px solid #d98555;
+}
+
+/* navbar styling */
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: #d98555;
+}
+
+nav li {
+    margin: 0 1rem 1rem 1rem;
+    font-size: 1.3rem;
+    color: #d98555;
+}
+
+/* max width on the image in pixels */
+nav .logo img {
+    max-width: 150px;
+}
+
+/* flex basis on the image container, li */
+nav .logo {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover {
+    color: #d98555;
+}
+
+/* General Carousel Styling */
+.carousel {
+    width: 100%;
+    max-width: 800px;
+    /* Adjust this to fit the desired size */
+    margin: 2rem auto;
+    /* Center the carousel and add space above/below */
+    border-radius: 15px;
+    /* Rounded corners for a modern look */
+    overflow: hidden;
+    /* Ensure the images fit inside the rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* Add a subtle shadow */
+}
+
+/* Carousel Images */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Ensures images scale nicely */
+}
+
+/* Active Carousel Item */
+.carousel-item {
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+    /* Smooth transitions */
+}
+
+/* Navigation Buttons (optional customization if you add controls) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    border-radius: 50%;
+    /* Make the icons circular */
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Indicators (optional styling for indicators at the bottom) */
+.carousel-indicators [data-bs-target] {
+    background-color: #000;
+    /* Black indicators */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    /* Make indicators circular */
+    margin: 0 5px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+    /* White active indicator */
+    opacity: 1;
+}
+.home {
+    text-align: center;
+}
+/* Button */
+.product-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #59331d; /* Coffee */
+    color: #f2f2f2; /* White */ 
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .product-button:hover {
+    background-color: #d98555; /* Peach */
+  }
+/* Footer styles */
+footer {
+    color: #f2f2f2;
+    text-align: center;
+    border-top: 10px solid #d98555;
+    background-color: #122855; /* Navy blue background */
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 8px; /* Rounded corners */
+    color: #122855;
+    font-size: 24px;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+  
+  .icon i {
+    pointer-events: none; /* Ensures icons are clickable */
+  }
+  
+  .icon:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+  
+  p {
+    font-size: 14px;
+    margin: 0;
+  }
