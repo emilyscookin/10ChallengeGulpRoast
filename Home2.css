@@ -13,7 +13,7 @@ h3 {
 }
 
 .main-bkgd {
-    background: #ffffff url(/Users/emilyhartman/Downloads/gulp-bottom-beans.jpg) repeat-x bottom;
+    background: #ffffff url(gulp-bottom-beans.jpg) repeat-x bottom;
     padding-bottom: 300px;
     text-align: center;
 }
